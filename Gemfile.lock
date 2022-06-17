@@ -61,7 +61,8 @@ GEM
       activesupport (>= 4.1.0)
     haml (4.0.7)
       tilt
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     innertube (1.1.0)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
@@ -171,6 +172,7 @@ DEPENDENCIES
   haml
   jbuilder (~> 2.0)
   jquery-rails
+  json (~> 1.8.5)
   mysql2
   rails (= 4.2.6)
   sass-rails (~> 5.0)
